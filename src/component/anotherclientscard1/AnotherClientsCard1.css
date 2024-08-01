@@ -1,0 +1,72 @@
+@font-face {
+    font-family: SF UI Display;
+    src: url(../../assets/fonts/SF\ UI\ Display);
+}
+
+.raitingCard3 {
+    background-color: 
+    rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    border-radius: 18px;
+    transition: all ease-in .5s;
+    box-shadow: -1px 9px 20px 0px rgba(176, 176, 176, 0.1);
+
+box-shadow: -3px 35px 36px 0px rgba(176, 176, 176, 0.09);
+
+box-shadow: -6px 80px 48px 0px rgba(176, 176, 176, 0.05);
+
+box-shadow: -11px 142px 57px 0px rgba(176, 176, 176, 0.01);
+
+box-shadow: -16px 221px 62px 0px rgba(176, 176, 176, 0);
+
+}
+.raitingCard3:hover{
+    background-color: rgb(30, 43, 55);
+    color: aliceblue;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardfooter {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: -3px;
+}
+
+.footer-information h3 {
+    font-family: SF UI Display;
+    color:
+        rgba(115, 115, 115, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+.paragraph{
+    font-family: SF UI Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color: 
+rgba(115, 115, 115, 1);
+}
+.footer-information p {
+    font-family: SF UI Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: rgba(194, 194, 194, 1);
+
+}

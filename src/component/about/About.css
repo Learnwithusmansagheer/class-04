@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.heaidng1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.heaidng1 h1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 40px;
+    color: rgb(22, 26, 26);
+}
+
+.container-md {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-items: center;
+    gap: 25px;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+}
+
+
+.row {
+    width: auto;
+}
+
+@media screen and (max-width:1000px) {
+    #container {
+        width: auto;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .row {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .row {
+        gap: 25px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .row {
+        gap: 25px;
+    }
+}

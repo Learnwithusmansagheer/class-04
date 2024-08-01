@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+
+.container img {
+    background-color: none;
+    width: auto;
+    transition: all .5s ease-in-out;
+   
+}
+
+.container img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    width: auto;
+
+    animation: moveImage 20s linear infinite;
+}
+
+@media screen and (max-width) {
+    .container {
+        padding: 0;
+    }
+}

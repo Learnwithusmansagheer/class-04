@@ -1,0 +1,32 @@
+.raiting i {
+    color: rgb(255, 85, 0);
+    font-size: 20px;
+    transition: all 0.5s ease-in;
+    animation-name: animation;
+    animation-duration: 4s; /* Specify a duration */
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.raiting i:hover {
+    transform: rotateX(180deg);
+    color: rgb(222, 179, 149);
+    animation-play-state: paused;
+}
+
+@keyframes animation {
+    0% {
+        color:rgb(255, 85, 0);
+        font-size: 20px; /* Match the initial size */
+    }
+    100% {
+        color: rgb(206, 206, 215);
+      
+    }
+}
+
+.raiting {
+    display: flex;
+    gap: 10px;
+}

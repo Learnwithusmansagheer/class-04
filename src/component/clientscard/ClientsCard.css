@@ -1,0 +1,41 @@
+
+#container11{
+    display: flex;
+    gap: 25px;
+    background-image: url(../../assets/images/Vector.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 400px 100px;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: end;
+    gap: 25px;
+    margin-top: 195px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: start;
+    gap: 25px;
+}
+@media screen and (max-width:1050px) {
+    #container11{
+        flex-direction: column;
+    }
+    .one{
+        justify-content: center;
+        align-items: center;
+    }
+    .two{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}

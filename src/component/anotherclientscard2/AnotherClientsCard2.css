@@ -1,0 +1,61 @@
+@font-face {
+    font-family: SF UI Display;
+    src: url(../../assets/fonts/SF\ UI\ Display);
+}
+
+.raitingCard4 {
+    background-color: rgb(234, 245, 245);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    border-radius: 18px;
+    
+}
+@media screen and (max-width:600px) {
+    .raitingCard4 {
+        width: 100px;
+    }
+}
+
+
+.cardfooter {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: -3px;
+}
+
+.footer-information h3 {
+    font-family: SF UI Display;
+    color:
+        rgba(115, 115, 115, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+.paragraph{
+    font-family: SF UI Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color: 
+rgba(115, 115, 115, 1);
+}
+.footer-information p {
+    font-family: SF UI Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: rgba(194, 194, 194, 1);
+
+}

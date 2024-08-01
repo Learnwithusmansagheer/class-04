@@ -1,0 +1,105 @@
+@font-face {
+    font-family: SF UI Display;
+    src: url(../../assets/fonts/SF\ UI\ Display);
+}
+
+#container {}
+
+.card {
+    width: 30%;
+    background: rgba(255, 255, 255, 1);
+
+    display: flex;
+    flex-direction: row;
+    box-shadow: -1px 9px 20px 0px rgba(176, 176, 176, 0.1);
+
+    box-shadow: -3px 35px 36px 0px rgba(176, 176, 176, 0.09);
+
+    box-shadow: -6px 80px 48px 0px rgba(176, 176, 176, 0.05);
+
+    box-shadow: -11px 142px 57px 0px rgba(176, 176, 176, 0.01);
+
+    box-shadow: -16px 221px 62px 0px rgba(176, 176, 176, 0);
+
+    border-radius: 19px;
+    padding: 35px 20px;
+    margin: 10px;
+
+    gap: 10px;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    background-color: aliceblue;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    flex-wrap: wrap;
+    width: auto;
+    font-family: SF UI Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+}
+
+.img {
+    padding: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.img img {
+    width: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.info h2 {
+    font-family: SF UI Display;
+    font-size: 23px;
+    color: rgba(56, 56, 56, 1);
+}
+
+@media screen and (max-width:1000px) {
+    .card {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .card {
+        width: auto;
+        height: auto;
+    }
+
+    .img {
+        padding: 0 15px;
+    }
+
+    .img img {
+        width: 45px;
+    }
+
+    .info h2 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 10px;
+
+    }
+
+}
