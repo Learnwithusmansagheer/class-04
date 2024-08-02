@@ -4,8 +4,8 @@
 }
 
 .raitingCard3 {
-    background-color: 
-    rgb(244, 244, 244);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(242, 229, 229);
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -75,7 +75,16 @@ rgba(115, 115, 115, 1);
 }
 @media screen and (max-width:1000px) {
     .raitingCard3 {
+        margin: 0 20px;
         width: auto;
         height: auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .raitingCard3 {
+        height: auto;
+        width: auto;
+        margin: 0 10px;
+        padding: 30px 30px ;
     }
 }

@@ -5,7 +5,8 @@
 
 
 .raitingCard1 {
-    background-color: rgb(234, 245, 245);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(242, 229, 229);
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -69,5 +70,14 @@ rgba(115, 115, 115, 1);
     .raitingCard1 {
         width: auto;
         height: auto;
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .raitingCard1 {
+        height: auto;
+        width: auto;
+        margin: 0 10px;
+        padding: 30px 30px ;
     }
 }

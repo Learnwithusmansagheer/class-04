@@ -4,14 +4,17 @@
 }
 
 .raitingCard4 {
-    background-color: rgb(234, 245, 245);
+    background-color: 
+    rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
     gap: 26px;
     border-radius: 18px;
     transition: all ease-in .5s;
     width: 529px;
-    height: 340px;
+    height: 350px;
+    padding: 40px 48px 60px 48px;
+    border: 1px solid rgb(242, 229, 229);
    
     
 }
@@ -25,10 +28,17 @@
     .raitingCard4 {
         height: auto;
         width: auto;
-        padding: 32px 32px;
+        margin: 0 20px;
     }
 }
-
+@media screen and (max-width:400px) {
+    .raitingCard4 {
+        height: auto;
+        width: auto;
+        margin: 0 10px;
+        padding: 30px 30px ;
+    }
+}
 
 .cardfooter {
     display: flex;

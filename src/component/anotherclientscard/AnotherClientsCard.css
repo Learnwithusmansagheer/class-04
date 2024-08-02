@@ -4,7 +4,8 @@
 }
 
 .raitingCard2 {
-    background-color: rgb(230, 229, 229);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(242, 229, 229);
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -13,6 +14,7 @@
     width: 331px;
     height: 250px;
     padding: 50px 50px 40px 50px;
+  
 }
 .raitingCard2:hover{
     background-color: rgb(30, 43, 55);
@@ -70,5 +72,14 @@ color: aliceblue;
     .raitingCard2 {
         width: auto;
         height: auto;
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .raitingCard2 {
+        height: auto;
+        width: auto;
+        margin: 0 10px;
+        padding: 30px 30px ;
     }
 }
