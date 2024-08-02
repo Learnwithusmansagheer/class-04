@@ -160,11 +160,12 @@
     text-align: center;
     color: rgba(0, 0, 79, 1);
 }
-.raiting-Card{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: aqua;
-}
+
 .add-card{
     margin-top: 50px;
+}
+@media screen and (max-width:1000px) {
+    .add-card{
+        margin-top: 5px;
+    }
 }

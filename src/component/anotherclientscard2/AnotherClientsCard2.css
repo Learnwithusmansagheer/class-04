@@ -9,11 +9,23 @@
     flex-direction: column;
     gap: 26px;
     border-radius: 18px;
+    transition: all ease-in .5s;
+    width: 529px;
+    height: 340px;
+   
     
 }
-@media screen and (max-width:600px) {
+.raitingCard4:hover{
+    background-color: rgb(30, 43, 55);
+    color: aliceblue;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:1000px) {
     .raitingCard4 {
-        width: 100px;
+        height: auto;
+        width: auto;
+        padding: 32px 32px;
     }
 }
 

@@ -3,9 +3,9 @@ import Fivestar from '../fiveStar/Fivestar';
 import Footerimg from '../../assets/images/cardimg.png';
 import './NewClientsCard.css'
 
-const NewClientsCard = ({ para, width, height, padding }) => {
+const NewClientsCard = ({ para,  height, padding }) => {
     return (
-        <div className="raitingCard1" style={{ width, height, padding }}>
+        <div className="raitingCard1" style={{  height, padding }}>
             <div className="fivestar">
                 <Fivestar />
             </div>

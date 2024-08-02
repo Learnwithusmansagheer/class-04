@@ -29,8 +29,26 @@
         flex-direction: column;
     }
     .one{
+        width: 100%;
         justify-content: center;
         align-items: center;
+    }
+    .two{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+@media screen and (max-width:1000px) {
+    #container11{
+        flex-direction: column;
+    }
+    .one{
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
     }
     .two{
         justify-content: center;
