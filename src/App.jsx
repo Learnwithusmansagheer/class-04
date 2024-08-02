@@ -5,12 +5,16 @@ import React from 'react';
 import './App.css';
 import Landing from './component/pages/landing/Landing';
 
+import AllCardCall from './component/technologyCapabilites/AllCardCall';
+
+
 // Import image assets
 const App = () => {
 
   return (
     <>
     <Landing/>
+   <AllCardCall/>
   </>
   );
 };

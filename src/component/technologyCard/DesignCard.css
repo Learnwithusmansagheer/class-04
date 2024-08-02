@@ -1,0 +1,41 @@
+@font-face {
+    font-family:SF UI Display ;
+    src: url(../../assets/fonts/SF\ UI\ Display);
+}
+.design {
+width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: aqua;
+
+
+}
+
+.heading h1 {
+    
+    font-family: SF UI Display;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23.87px;
+    text-align: left;
+    color: 
+    rgba(0, 0, 0, 1);
+}
+.designCard1{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.imgcard{
+    width: 93px;
+    height: 93px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
