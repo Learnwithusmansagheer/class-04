@@ -7,6 +7,8 @@ import Dashboard from '../../dashboard/Dashboard'
 import CallLandingImg from '../../callLandingimg/CallLanding';
 import ClientsCard from '../../clientscard/ClientsCard';
 
+import AllCardCall from '../../technologyCapabilites/AllCardCall';
+
 export default function Landing() {
   return (
    <>
@@ -37,6 +39,12 @@ export default function Landing() {
     </div>
     <div className="add-card">
     <ClientsCard/>
+    </div>
+    <div className="technology-capabilites">
+      <h1>Technology Capabilities</h1>
+    </div>
+    <div className="Technology_design_card">
+    <AllCardCall/>
     </div>
    
    </>

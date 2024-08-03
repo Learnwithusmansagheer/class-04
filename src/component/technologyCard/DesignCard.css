@@ -1,41 +1,145 @@
 @font-face {
-    font-family:SF UI Display ;
+    font-family: SF UI Display;
     src: url(../../assets/fonts/SF\ UI\ Display);
 }
+/* Base styles */
 .design {
-width: 100%;
-
+    width: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
+ 
     justify-content: center;
-    gap: 150px;
-    background-color: aqua;
-
-
+   
+    gap: 10px;
 }
 
-.heading h1 {
-    
+.headingAndData {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.designCard1 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    gap: 22px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 150px;
+}
+
+.heading1 h2 {
     font-family: SF UI Display;
     font-size: 20px;
     font-weight: 800;
     line-height: 23.87px;
     text-align: left;
-    color: 
-    rgba(0, 0, 0, 1);
 }
-.designCard1{
-    display: flex;
-    gap: 22px;
-    justify-content: center;
-    align-items: center;
- 
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1200px) {
+    .headingAndData {
+        gap: 50px;
+    }
 }
-.imgcard{
-    width: 93px;
-    height: 93px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@media screen and (max-width: 1000px) {
+    .headingAndData {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .designCard1 {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+
+    .heading1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .heading1 h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .headingAndData {
+        grid-template-columns:repeat(5,1fr);
+        gap: 30px;
+    }
+
+    .designCard1 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+
+    .heading1 {
+   
+        justify-content: center;
+    }
+
+    .heading1 h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headingAndData {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .designCard1 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .heading1 {
+      
+      width: 100%;    justify-content: center;
+    }
+
+    .heading1 h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .designCard1 {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .heading1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .heading1 h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .designCard1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .heading1 h2 {
+        font-size: 14px;
+    }
 }

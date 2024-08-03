@@ -8,6 +8,7 @@
     background-size: 40%;
     background-position: 400px 100px;
     justify-content: center;
+    padding:5px 10px 40px 10px;
 }
 .one{
     display: flex;

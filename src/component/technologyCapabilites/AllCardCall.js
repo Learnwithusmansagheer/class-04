@@ -9,9 +9,8 @@ export default function AllCardCall() {
     },
    
    ];
-  
     return (
-        <div className='container'style={{backgroundColor:'green',display:'flex'}}>
+        <div className='container'>
             {data.map((item, index) => (
                 <DesignCard
                     key={index}
