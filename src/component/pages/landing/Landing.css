@@ -185,31 +185,62 @@
     font-weight: 800;
     line-height: 55px;
     text-align: center;
-    color: 
-    rgba(0, 0, 79, 1);
+    color:
+        rgba(0, 0, 79, 1);
     margin-top: 100px;
 
 }
+
 @media screen and (max-width:600px) {
     .technology-capabilites h1 {
         font-size: 40px;
         margin-top: 50px;
-    } 
+    }
 }
+
 @media screen and (max-width:480px) {
     .technology-capabilites h1 {
         font-size: 30px;
         margin-top: 40px;
-    } 
+    }
 }
+
 @media screen and (max-width:380px) {
     .technology-capabilites h1 {
         font-size: 25px;
         margin-top: 30px;
-    } 
+    }
 }
 
 /* here we setting the technology capabilities  */
-.Technology_design_card{
+.Technology_design_card {
     margin-top: 45px;
+}
+
+.partner_cardSetting {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:
+        rgba(232, 237, 255, 1);
+}
+
+.heaidng_partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    
+
+}
+.heaidng_partner h1{
+    font-family: SF UI Display;
+    font-size: 48.83px;
+    font-weight: bold;
+    line-height: 55px;
+    text-align: center;
+    color: 
+    rgba(0, 0, 79, 1);
 }

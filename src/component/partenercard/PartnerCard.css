@@ -1,0 +1,45 @@
+.partner_card {
+    width: 250px;
+    height: 121px;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 19px;
+    opacity: 0px;
+    border: 1px solid rgb(240, 233, 233);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+transition: .5s ease-in;
+}
+.partner_card:hover{
+transform:scaleX(1.055);
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
+}
+
+
+/* 
+@media screen and (max-width: 600px) {
+    .partner_card {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partner_card {
+        width: 300px;
+        height: auto;
+        padding: 15px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .partner_card {
+        width: 300px;
+        height: auto;
+        padding: 12px;
+        border-radius: 5px;
+    }
+} */

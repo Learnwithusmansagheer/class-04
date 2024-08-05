@@ -1,0 +1,9 @@
+.setting_partner{
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    flex-wrap: wrap;
+    padding: px;
+    gap: 10px;
+}

@@ -5,7 +5,7 @@ import React from 'react';
 import './App.css';
 import Landing from './component/pages/landing/Landing';
 
-
+import CallPartner from './component/partenercard/CallPartner';
 
 // Import image assets
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
     <Landing/>
-  
+
   </>
   );
 };
