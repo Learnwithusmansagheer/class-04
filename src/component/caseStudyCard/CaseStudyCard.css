@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 
+    Poppins;
+    src: url(../../assets/fonts/popp1.ttf);
+}
+.mian_settingSection {
+    width: auto;
+
+}
+
+.main_studyCard {
+    width: 462px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.img_section {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+
+#laptopimg1 {
+    width: 360px;
+    height: 260px;
+}
+
+#mobileimg1 {
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    margin: 100px 220px;
+    border: none;
+
+}
+
+.content_section {
+    width: 460px;
+    flex-wrap:wrap;
+}
+.content_section h2 {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 40.5px;
+    text-align: left;
+    color: 
+    rgba(0, 0, 0, 1);    
+}
+.content_section p{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+text-align: left;
+color: 
+rgba(99, 98, 98, 1);
+}
+@media screen and (max-width:500px) {
+    .main_studyCard {
+        width: auto;
+        margin: 15px;
+    }
+    .img_section {
+        width: 250px;
+    height: 250px;
+    }
+    #laptopimg1 {
+        width: 280px;
+        height: 220px;
+    }
+    #mobileimg1 {
+        width: 90px;
+        height: 120px;
+        position: absolute;
+        margin: 80px 170px;
+        border: none;
+    }
+    .content_section {
+        margin: 15px;
+        width: auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .main_studyCard {
+        width: auto;
+        margin: 15px;
+    }
+    .img_section {
+        width: 230px;
+    height: 230px;
+    }
+    #laptopimg1 {
+        width: 260px;
+        height: 210px;
+    }
+    #mobileimg1 {
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        margin: 80px 140px;
+        border: none;
+    }
+    .content_section {
+        width: auto;
+        width: auto;
+    }
+}

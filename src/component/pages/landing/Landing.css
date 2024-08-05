@@ -232,15 +232,41 @@
     align-items: center;
     padding: 10px;
     margin-top: 50px;
-    
+
 
 }
-.heaidng_partner h1{
+
+.heaidng_partner h1 {
     font-family: SF UI Display;
     font-size: 48.83px;
     font-weight: bold;
     line-height: 55px;
     text-align: center;
-    color: 
-    rgba(0, 0, 79, 1);
+    color:
+        rgba(0, 0, 79, 1);
+}
+
+/* here we setting the case study card */
+.main-study-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 68px;
+    gap: 50px;
+}
+
+.study_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.study_heading h1 {
+    font-family: SF UI Display;
+    font-size: 48.83px;
+    font-weight: 800;
+    line-height: 55px;
+    text-align: center;
+    color: rgba(0, 0, 79, 1);
+
 }
