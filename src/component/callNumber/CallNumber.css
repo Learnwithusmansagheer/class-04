@@ -1,12 +1,29 @@
 #setting {
+  
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-content: center;
-
-    flex-wrap: wrap;
+    gap: 15px; /* Add some spacing between grid items if needed */
     margin-top: 15px;
+    overflow: hidden; /* Hide overflow to ensure smooth scrolling */
+    position: relative; /* Required for positioning the inner container */
+    animation: infinite-scroll 20s linear infinite;
+}
 
+#setting .scrolling-container {
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100px;
+    height: auto;
+    position: absolute; /* Position it absolutely within the #setting container */
+}
+
+@keyframes infinite-scroll {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
 }
 
 @media screen and (max-width:900px) {

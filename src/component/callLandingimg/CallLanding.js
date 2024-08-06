@@ -25,11 +25,15 @@ const CallLandingImg = () => {
     ];
 
     return (
+        <>
+        <marquee behavior="fast" direction="right">
         <div className='container'>
             {call.map((container, index) => (
                 <LandingImg key={index} img={container.img} />
             ))}
         </div>
+        </marquee>
+        </>
     );
 };
 

@@ -1,0 +1,186 @@
+@font-face {
+    font-family:popp-regular ;
+    src: url(../../assets//fonts/popp-regular.ttf);
+}
+.footer {
+    height: auto;
+    margin-top: 100px;
+    gap: 0px;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: aqua;
+    justify-content: center;
+    padding: 10px 10px 10px 150px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.footer::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%; /* Centers the border horizontally */
+    width: 80%;
+    height: 3px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 20px;
+}
+
+.subfooter h3 {
+    color: #00004F;
+    font-family: popp-regular;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    text-align: justify;
+}
+
+.subfooter p {
+    font-family: popp-regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    color: #553C8B;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: all ease .5s;
+    border-radius: 50%;
+}
+.facebook:hover{
+    background-color: rgb(0, 255, 0);
+}
+.youtube{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: all ease .5s;
+    border-radius: 50%;
+}
+.youtube:hover{
+    background-color: rgb(255, 0, 0);
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: all ease .5s;
+    border-radius: 50%;
+}
+.instagram:hover{
+    background-color: rgb(255, 251, 0);
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: all ease .5s;
+    border-radius: 50%;
+}
+.twitter:hover{
+    background-color:paleturquoise;
+}
+.footerimg {
+    color: #553C8B;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footerimg img {
+    width: 9.34px;
+    height: 18px;
+    opacity: 1;
+}
+
+#instagram, #twiter, #youtube {
+    opacity: 1;
+}
+
+#instagram {
+   
+    width: 18px;
+    height: 18px;
+}
+
+#twiter {
+    width: 19.65px;
+    height: 15.96px;
+}
+
+#youtube {
+    width: 22.28px;
+    height: 15.78px;
+}
+
+
+
+#footercopy {
+    font-family: popp-regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #553C8B;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 1100px) {
+    .footer {
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 50px;
+      
+       padding: 10px 10px 10px 100px;
+    }
+
+   
+}
+@media (max-width: 930px) {
+    .footer {
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 50px;
+      
+       padding: 10px 10px 10px 40px;
+    }
+
+   
+}
+@media (max-width: 618px) {
+    .footer {
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
+      
+       padding: 10px 10px 10px 40px;
+    }
+
+   
+}
+@media (max-width: 420px) {
+    .footer {
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 50px;
+      
+       padding: 10px 10px 10px 40px;
+    }
+
+   
+}
+
+
+

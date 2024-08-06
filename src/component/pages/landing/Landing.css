@@ -270,3 +270,64 @@
     color: rgba(0, 0, 79, 1);
 
 }
+
+/* here we setting the study card */
+
+.setting_StudyCard {
+    background-color:
+        rgba(232, 237, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.studyheading {
+    margin-top: 50px;
+    
+}
+
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blinkTextCursor {
+    from { border-right-color: rgba(0, 0, 79, 1); }
+    to { border-right-color: transparent; }
+  }
+  
+  .studyheading h1 {
+    font-family: SF UI Display;
+    font-size: 48.83px;
+    font-weight: 800;
+    line-height: 55px;
+    text-align: center;
+    color: rgba(0, 0, 79, 1);
+    overflow: hidden; 
+    border-right: .1em solid rgba(0, 0, 79, 1); 
+    white-space: nowrap;
+    animation: 
+      typewriter 4s steps(40, end) 3s  infinite, 
+      blinkTextCursor 500ms steps(40, end) infinite; 
+  }
+  
+.add-Card{
+
+    margin-top: 50px;
+}
+.settingform{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width:400px) {
+    .studyheading h1 {
+        font-size:30px;
+        display: flex;
+      
+    }
+}

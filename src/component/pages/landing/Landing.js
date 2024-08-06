@@ -10,6 +10,8 @@ import CallPartner from '../../partenercard/CallPartner'
 import CallstudyCard from '../../caseStudyCard/CallstudyCard'
 
 import AllCardCall from '../../technologyCapabilites/AllCardCall';
+import CallWorkCard from '../../workCard/CallWorkCard'
+import SubscribeForm from '../../emailcard/SubscribeForm';
 
 export default function Landing() {
   return (
@@ -64,6 +66,18 @@ export default function Landing() {
         <div className="CallstudyCard">
           <CallstudyCard/>
         </div>
+      </div>
+      <div className="setting_StudyCard">
+        <div className="studyheading">
+          <h1>Why work with us</h1>
+        </div>
+        <div className="add-Card">
+      <CallWorkCard/>
+        </div>
+      </div>
+      {/* Subscribes form */}
+      <div className="settingform">
+      <SubscribeForm/>
       </div>
 
     </>

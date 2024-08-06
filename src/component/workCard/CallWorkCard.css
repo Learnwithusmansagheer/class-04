@@ -1,0 +1,32 @@
+.container-setting{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+@media screen and (max-width:700px) {
+    .container-setting{
+        width: auto;
+     
+    }
+}
+
+
+@media screen and (max-width:586px) {
+    .container-setting{
+      width: auto;
+   
+    }
+}
+@media screen and (max-width:500px) {
+    .container-setting{
+      width: auto;
+      padding: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .container-setting{
+   
+    }
+}
