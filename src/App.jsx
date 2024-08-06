@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React from 'react';
 import './App.css';
 import Landing from './component/pages/landing/Landing';
-import Footer from './component/footer/Footer';
+
 
 
 
@@ -17,7 +17,7 @@ function App() {
     <>
       <Landing />
   
-      <Footer/>
+    
 
     </>
   );

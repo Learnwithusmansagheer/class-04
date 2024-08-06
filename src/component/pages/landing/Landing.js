@@ -12,6 +12,7 @@ import CallstudyCard from '../../caseStudyCard/CallstudyCard'
 import AllCardCall from '../../technologyCapabilites/AllCardCall';
 import CallWorkCard from '../../workCard/CallWorkCard'
 import SubscribeForm from '../../emailcard/SubscribeForm';
+import Footer from '../../footer/Footer';
 
 export default function Landing() {
   return (
@@ -78,6 +79,9 @@ export default function Landing() {
       {/* Subscribes form */}
       <div className="settingform">
       <SubscribeForm/>
+      </div>
+      <div className="footer-setting">
+      <Footer/>
       </div>
 
     </>

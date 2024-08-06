@@ -20,10 +20,13 @@
     height: auto;
     position: absolute; /* Position it absolutely within the #setting container */
 }
+#setting .scrolling-container:hover  {
+    animation-play-state: paused; /* Pause animation on hover */
+}
 
 @keyframes infinite-scroll {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
 
 @media screen and (max-width:900px) {
