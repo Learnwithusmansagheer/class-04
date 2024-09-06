@@ -1,6 +1,5 @@
 import React from 'react'
 import './PartnerCard.css'
-import { height } from '@fortawesome/free-solid-svg-icons/fa0'
 
 export default function PartnerCard({img,width,height}) {
     const styles = {
