@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React from 'react';
 import './App.css';
 import Landing from './component/pages/landing/Landing';
+import Login from './component/loginpage/Login';
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <Landing />
-  
+  <Login/>
     
 
     </>
