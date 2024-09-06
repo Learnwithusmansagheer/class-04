@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Landing />
-  <Login/>
+  {/* <Login/> */}
     
 
     </>
