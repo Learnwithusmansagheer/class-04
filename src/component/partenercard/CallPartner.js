@@ -8,14 +8,10 @@ import img4 from '../../assets/images/partnerimg4.png'
 import img5 from '../../assets/images/partnerimg5.png'
 import img6 from '../../assets/images/partnerimg6.png'
 import img8 from '../../assets/images/partnerimg8.png'
-
 import img9 from '../../assets/images/partnerimg9.png'
 import img10 from '../../assets/images/partnerimg10.png'
 import img11 from '../../assets/images/partnerimg11.png'
-
 import './CallPartner.css'
-import { height, width } from '@fortawesome/free-solid-svg-icons/fa0';
-
 export default function CallPartner() {
     const Information = [{
         img: img1,
